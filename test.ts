@@ -1,10 +1,10 @@
 interface createReviewType {
   createReviewData: {
-    serviceID: string
-    rating: string
-    comment: string
+    serviceID: string;
+    rating: string;
+    comment: string;
     photos: {
-      file: number
-    }[]
-  }
+      file: number;
+    }[];
+  };
 }
